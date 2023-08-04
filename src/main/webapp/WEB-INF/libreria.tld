@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<taglib>
+
+	<tlibversion>1.0</tlibversion>
+	<jspversion>1.0</jspversion>
+	<shortname>tools</shortname><!--alias de nuestra lib -->
+
+	<!--etiqueta personalizada sin parametro -->
+	<tag>
+
+		<name>cboCiudad</name><!--como queremos llamar a nuestra etiqueta -->
+		<tagclass>etiquetas.CboCiudadTag</tagclass><!--ubicacion de la clase -->
+		<bodycontent>empty</bodycontent>
+		<info>Etiqueta sin cuerpo, que mostrará el contenido de la tabla
+			ciudad</info>
+
+	<!-- etiqueta personalizada con parametro --></tag>
+	
+	
+	<tag>
+
+		<name>cboCiudadPar</name><!--como queremos llamar a nuestra etiqueta -->
+		<tagclass>etiquetas.CboCiudadTagParametro</tagclass><!--ubicacion de la clase -->
+		<bodycontent>empty</bodycontent>
+		<info>Etiqueta sin cuerpo, que mostrará el contenido de la tabla ciudad</info>
+			
+		<attribute>
+			<name>valor</name>
+			<required>false</required>//no es necesario cambiarlo porque tiene valor -1 por default
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+	</tag>
+	
+	<!-- etiqueta personalizada con parametro -->
+	<tag>
+
+		<name>cboSexoPar</name><!--como queremos llamar a nuestra etiqueta -->
+		<tagclass>etiquetas.CboGeneroPa</tagclass><!--ubicacion de la clase -->
+		<bodycontent>empty</bodycontent>
+		<info>Etiqueta sin cuerpo, que mostrará el contenido de genero</info>
+			
+		<attribute>
+			<name>valor</name>
+			<required>false</required>//no es necesario cambiarlo porque tiene valor -1 por default
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+	</tag>
+	
+	<!-- etiqueta personalizada con parametro -->
+	<tag>
+
+		<name>cboCategPa</name><!--como queremos llamar a nuestra etiqueta -->
+		<tagclass>etiquetas.CboCategoriaPar</tagclass><!--ubicacion de la clase -->
+		<bodycontent>empty</bodycontent>
+		<info>Etiqueta sin cuerpo, que mostrará el contenido de categoria</info>
+			
+		<attribute>
+			<name>valor</name>
+			<required>false</required>//no es necesario cambiarlo porque tiene valor -1 por default
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+	</tag>
+
+
+	<!-- otras etiquetas de la librería -->
+
+</taglib>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
